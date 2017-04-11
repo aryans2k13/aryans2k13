@@ -1,0 +1,49 @@
+# Do not remove this line or mod_rewrite rules and search engine friendly URLs will stop working
+RewriteBase /
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW ERRORPAGEID:usuzyG
+ErrorDocument 400 /400.html
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE usuzyG:ERRORPAGEID
+
+
+
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW ERRORPAGEID:atuJaB
+ErrorDocument 500 /500.html
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE atuJaB:ERRORPAGEID
+
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW ERRORPAGEID:sahuWe
+ErrorDocument 404 /404.html
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE sahuWe:ERRORPAGEID
+
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW HOTLINKID:agyWuJaXeR
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?tas2013batch.esy.es/.*$      [NC]
+RewriteRule .*\.(txt|html|htm|php|swf)$ http://www.tas2013batch.esy.es [R,NC]
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE agyWuJaXeR:HOTLINKID
+
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW HOTLINKID:LytyNaQuSu
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?tas2013batch.esy.es/.*$      [NC]
+RewriteRule .*\.(.*)$ http://www.tas2013batch.esy.es [R,NC]
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE LytyNaQuSu:HOTLINKID
+
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW HOTLINKID:ZyXuqazapu
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?tas2013batch.esy.es/.*$      [NC]
+RewriteRule .*\.(.*)$ http://www.tas2013batch.esy.es [R,NC]
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE ZyXuqazapu:HOTLINKID
+
+
+Options All -Indexes
+
+
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW ERRORPAGEID:Nutyju
+ErrorDocument 403 /403.html
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE Nutyju:ERRORPAGEID
+

@@ -1,0 +1,30 @@
+#List Of Fixed Security Flaws & Potential Bugs
+Bug001 -- PHP Upload Flaw Seen On Certain Browsers Which Leaked Critical Server Root Details.(High Risk Critical Security Issue)
+Bug002 -- Main Homepage Index Margin Error which rendered main page to disrupt alignment on certain handheld devices.(High CSS error)
+
+
+Please click or tap on back to return to previous page.
+
+
+All Rights Reserved.
+
+Bug Logs.
+
+Maintained by Shreyan Nag.
+
+TAS2013BATCH
+
+████████╗ █████╗ ███████╗██████╗  ██████╗  ██╗██████╗ ██████╗  █████╗ ████████╗ ██████╗██╗  ██╗
+╚══██╔══╝██╔══██╗██╔════╝╚════██╗██╔═████╗███║╚════██╗██╔══██╗██╔══██╗╚══██╔══╝██╔════╝██║  ██║
+   ██║   ███████║███████╗ █████╔╝██║██╔██║╚██║ █████╔╝██████╔╝███████║   ██║   ██║     ███████║
+   ██║   ██╔══██║╚════██║██╔═══╝ ████╔╝██║ ██║ ╚═══██╗██╔══██╗██╔══██║   ██║   ██║     ██╔══██║
+   ██║   ██║  ██║███████║███████╗╚██████╔╝ ██║██████╔╝██████╔╝██║  ██║   ██║   ╚██████╗██║  ██║
+   ╚═╝   ╚═╝  ╚═╝╚══════╝╚══════╝ ╚═════╝  ╚═╝╚═════╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝    ╚═════╝╚═╝  ╚═╝
+██████╗ ██╗   ██╗ ██████╗ ██╗      ██████╗  ██████╗                                            
+██╔══██╗██║   ██║██╔════╝ ██║     ██╔═══██╗██╔════╝                                            
+██████╔╝██║   ██║██║  ███╗██║     ██║   ██║██║  ███╗                                           
+██╔══██╗██║   ██║██║   ██║██║     ██║   ██║██║   ██║                                           
+██████╔╝╚██████╔╝╚██████╔╝███████╗╚██████╔╝╚██████╔╝                                           
+╚═════╝  ╚═════╝  ╚═════╝ ╚══════╝ ╚═════╝  ╚═════╝                                            
+                                                                                               
+
