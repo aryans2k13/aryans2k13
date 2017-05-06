@@ -24,7 +24,7 @@
 <meta property=og:url content=http://www.tas2013batch.esy.es />
 <meta property=og:image content="http://res.cloudinary.com/dxwpbmamh/image/upload/v1465929500/school2013/img20.jpg" />
 <meta property=og:locale content=en_IN />
-<meta name=description content="The Aryans School Batch 2013 . Website built to store memory of our journey.">
+<meta name=description content="The Aryans School Batch 2013 . Website built to store memory of our journey. Has archived magazines, pictures.">
 <meta name=keywords content="TheAryansSchool,2013,Aryans,School,Kolkata,WestBengal,WB,kolkata,aryansschool,thearyansschool,year2013,The Aryans School,Kamarhati">
 <meta name="google-site-verification" content="NikKOWj2hRlfXWk5oiSjhO1xORnf-4ewj0N-c2z-4nA" />
 <link rel=stylesheet href=http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css>
@@ -129,7 +129,18 @@ function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
 }
 </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
+<script type="text/javascript" src="js/datasecurity.js"></script>
+<script type="text/javascript" src="js/sourceprotection.js"></script>
+<!--data-protection-->
+<script type="text/javascript">
+  $(document).ready(function()
+{
+    $('img').bind('contextmenu', function(e){
+        return false;
+    }); 
+});
+</script>
+<!--ends-->
 <!--tab-animate-color-->
 <script type="text/javascript">
   var metaTag = $('meta[name="theme-color"]');
@@ -304,7 +315,7 @@ if (window.matchMedia("(orientation: portrait)").matches) {
 <div class=row>
 <div class=col-xs12>
 <div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="https://player.vimeo.com/video/206261582?title=0&byline=0&portrait=0" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<iframe class="embed-responsive-item" src="https://player.vimeo.com/video/206261582?title=0&byline=0&portrait=0" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen oncontextmenu="return false;"></iframe></div>
 </div></div>
 </div>
 
@@ -457,25 +468,6 @@ if (window.matchMedia("(orientation: portrait)").matches) {
 </div>
 <!--ends-->
 <!--Image Upload Modal Code Start-->
-  <div class="modal fade" id="myModal2" role="dialog">
-    <div class="modal-dialog modal-lg">
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Upload Photo</h4>
-        </div>
-        <div class="modal-body">
-          <div class="embed-responsive embed-responsive-16by9">
-          <iframe class=embed-responsive-item src="image_upload.html" >Loading...</iframe>
-</div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-   </div>
-  </div>
 </ul>
 <!--Search-Modal-->
 <div class="modal fade" id="myModal7" role="dialog">
@@ -502,6 +494,27 @@ if (window.matchMedia("(orientation: portrait)").matches) {
 </div>
 </footer>
 <!--new-tech-ends-->
+<!--upload-modal-->
+<div class="modal fade" id="myModal2" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Upload Photo</h4>
+        </div>
+        <div class="modal-body">
+          <div class="embed-responsive embed-responsive-16by9">
+          <iframe class=embed-responsive-item src="image_upload.html" >Loading...</iframe>
+</div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+   </div>
+  </div>
+<!--ends-->
 </div><!--note-loader-content-ends-here-->
 <!--donate-modal-->
 <div class="modal fade" id="dnte" role="dialog">
@@ -519,10 +532,6 @@ if (window.matchMedia("(orientation: portrait)").matches) {
         <p align="center">&nbsp;&nbsp; But as this project has progressively matured some of my friends has showed interest to help me in this pursuit. They may not helped in coding the site functionalities but have provided invaluable support. Likewise, in helping out bringing the PDFs of the magazines which we had received during the school days. As a way to preserve our school life ! </p>
         <p align="center">&nbsp;&nbsp;Thus, I need your help to enrich the site with more functionalities and maybe even provide this website technology open to others as a way to enrich and preserve their school life, like I did. I need monetary support to keep providing fees to our CDNs(Cloud Delivery Networks) which caches the site resources in their servers to provide smooth 24x7 site uptime. And even likewise we can upgrade our domain from “.esy.es” to “.org” or “.com”. With Your donation we will be step closer to achieve the goal of providing an open source free service to let people preserve their sweet nostalgic memories</p>
        <br><br>
-
-
-
-
    </div>
       </div>
     </div>

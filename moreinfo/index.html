@@ -16,6 +16,8 @@ function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
 }
 </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<!--data-privacy--><script type="text/javascript" src="../js/datasecurity.js"></script>
+<script type="text/javascript" src="../js/sourceprotection.js"></script>
 
     <style>
    .jumbotron {
@@ -43,7 +45,11 @@ function googleTranslateElementInit() {
     <div class=container>
 <div class=jumbotron>
   <div class=col-xs-12>
-<h1>ChangeLog</h1><br>
+<h1><i class="fa fa-info" aria-hidden="true" style="color:rgb(239,187,31);"></i>
+&nbsp;More Info</h1><br>
+<div class="col-md-4 col-xs-12" style="margin-bottom:15px; margin-left: -35px;"><button class="btn btn-default" data-toggle="collapse" data-target="#logs"><i class="fa fa-refresh" aria-hidden="true" style="color: green;"></i>
+&nbsp;&nbsp;Show Updates</button></div>
+<div id="logs" class="collapse" style="margin-top:25px;">
         <div id="wrapper">
             <div id="data-container">
                 <div class="data-item">
@@ -65,7 +71,7 @@ function googleTranslateElementInit() {
                     Update 7 : Added Facebook Messenger's Artificial Intelligence Bot
                 </div>
                 <div class="data-item">
-                    Update 8 : Added Infinte Scroll On Moreinfo & help page , <a href="./bugfix.txt">Security Flaw Fixed Bug001</a>
+                    Update 8 : Added Infinte Scroll On Moreinfo & help page , <a href="./bugfixes.html">Bug Fixes Report</a>
                 </div>
             </div>
             <div id="button-more" onclick="lazyload.load()">
@@ -74,7 +80,7 @@ function googleTranslateElementInit() {
             <div id="loading-div">
                 loading more items
             </div>
-        </div></div> </div></div>
+        </div></div> </div></div></div>
         <div class=container>
             <div class=row><div class=col-xs-12>
             <p>Images,Videos and Spreadsheets showed on the site are hosted at Google Drive and Cloudinary's CDN respectively which are highly protected.</p>
@@ -89,7 +95,9 @@ function googleTranslateElementInit() {
             <br>
             <a href="../index.html"><button class="btn btn-default"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;Go to Homepage</button></a>&nbsp;&nbsp;
             <button class="btn btn-default" data-toggle="modal" data-target="#myModal"><i class="fa fa-cog" aria-hidden="true"></i>&nbsp;Technolgies Used</button>&nbsp;&nbsp;
-            <a href="https://github.com/shreyannag/aryans2k13"><button class="btn btn-default"><i class="fa fa-github" aria-hidden="true"></i>&nbsp;Repository</button></a>
+            <a href="https://github.com/shreyannag/aryans2k13"><button class="btn btn-default"><i class="fa fa-github" aria-hidden="true"></i>&nbsp;Repository</button></a>&nbsp;&nbsp;
+            <a href="./bugfixes.html"><button class="btn btn-default"><i class="fa fa-bug" aria-hidden="true" style="color:red;"></i>&nbsp;Known Bugs
+</button></a>
             <!--tech-look-up-modal-->
             <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog modal-lg">
@@ -115,7 +123,7 @@ function googleTranslateElementInit() {
             <!--ends-->
             <br>
                 <h2>Digital License and fair usage of data</h2>
-                <dir class="panel panel-info"><p>All displayed images of the software and company logo are used only for representation here. All logos are owned by their respective owners and companies,and are copyright protected, in accordance with their respective national laws.</p></dir>
+                <dir class="panel panel-info"><p>All displayed images of the software and company logo are used only for representation in this website. All logos are owned by their respective owners and companies,and are copyright protected, in accordance with their respective national laws.</p></dir>
 <div class="panel panel-info">
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Nostalgia 2013- The Aryans School</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://shreyannag.github.io/" property="cc:attributionName" rel="cc:attributionURL">Shreyan Nag</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License .</a>. Friend's Reunion Project.
 </div></div>
@@ -130,7 +138,8 @@ function googleTranslateElementInit() {
 <div class=container>
 <ul class=list-inline>
 <li><a href=../game.html title=Creator data-toggle=popover data-placement=top data-content data-trigger=hover><span class="glyphicon glyphicon-leaf"></span>Have a</a></li>
-<li><a href=../game1.html title=Creator data-toggle=popover data-placement=top data-content data-trigger=hover>nice day<span class="glyphicon glyphicon-leaf"></span></a></li>
+<li><a href=../game1.html title=Creator data-toggle=popover data-placement=top data-content data-trigger=hover>nice day<span class="glyphicon glyphicon-leaf"></span></a></li>&nbsp;
+<li><a href="#" onclick="myFunction()"><i class="fa fa-print" aria-hidden="true"></i>&nbsp;Print This Page</a></li>
 </ul>
 </div>
 </div>
@@ -138,6 +147,11 @@ function googleTranslateElementInit() {
 </div>
 </div>
 </footer>
+<script>
+function myFunction() {
+    window.print();
+}
+</script>
         <script type="text/javascript" src="./lazyload.js"></script>
     </body>
 </html>
